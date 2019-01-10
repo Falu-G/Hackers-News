@@ -1,0 +1,119 @@
+<html>
+	<head>
+	<title>Hackers News</title>
+	<link href="HN.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="maincont" >
+			<div id="pgtitle" class="cont">
+			<h1>Hackers News</h1>
+			</div>
+			<div id="HNconts" class="cont">
+				<div id="datacnt">
+					<div class="contleft">
+							<div id="story" class="items cont">
+							<div id="storyAuthor" class="itemheading">
+								<Label>Author:&nbsp;&nbsp;<span id="strauth" class="value"></span></Label>
+							</div>
+							<div id="storyData" class="itembody">
+								<p class="data" id="stryTitle"></p>
+								<p class="data"><span>Comments&nbsp;&nbsp;<span id="strycmts" class="value"></span></p>
+								<p class="data"><span>score&nbsp;&nbsp;<span id="stryscre" class="value"></span></p>
+								<p class="data"><span>Type&nbsp;&nbsp;<span id="strytype" class="value"></span></p>
+								<p class="data"><span>Created&nbsp;&nbsp;<span id="strytime" class="value"></span></p>
+								<p class="data"><span id="strURL" class="value"></span></p>
+							</div>
+						</div>
+						<div id="comment" class="items cont">
+							<div id="commentAuthor" class="itemheading">
+								<Label>Author:&nbsp;&nbsp;<span id="cmtauth" class="value"></span></Label>
+							</div>
+							<div id="commentData" class="itembody">
+								<p class="data" id="cmtTxt"></p>
+								<p class="data"><span>Comments&nbsp;&nbsp;<span id="cmtcmts" class="value"></span></p>
+								<p class="data"><span>Parent&nbsp;&nbsp;<span id="cmtprnt" class="value"></span></p>
+								<p class="data"><span>Type&nbsp;&nbsp;<span id="cmttype" class="value"></span></p>
+								<p class="data"><span>Created&nbsp;&nbsp;<span id="cmttime" class="value"></span></p>
+								
+							</div>
+						</div>
+						
+						<div id="poll" class="items r2 cont">
+						<div id="pollAuthor" class="itemheading">
+							<Label>Author:&nbsp;&nbsp;<span id="pollauth" class="value"></span></Label>
+						</div>
+						<div id="pollData" class="itembody">
+							<p class="data" id="pollTitle"></p>
+							<p class="data"><span>Comments&nbsp;&nbsp;<span id="pollcmts" class="value"></span></p>
+							<p class="data"><span>score&nbsp;&nbsp;<span id="pollscre" class="value"></span></p>
+							<p class="data"><span>Parts&nbsp;&nbsp;<span id="pollpt" class="value"></span></p>
+							<p class="data"><span>Type&nbsp;&nbsp;<span id="polltype" class="value"></span></p>
+							<p class="data"><span>Created&nbsp;&nbsp;<span id="polltime" class="value"></span></p>
+							
+						</div>
+					</div>
+					
+					<div id="pollpt" class="items r2 cont">
+						<div id="pollptAuthor" class="itemheading">
+							<Label>Author:&nbsp;&nbsp;<span id="pollptauth" class="value"></span></Label>
+						</div>
+						<div id="pollptData" class="itembody">
+							<p class="data" id="pollptTxt"></p>
+							<p class="data"><span>Poll&nbsp;&nbsp;<span id="pollptpoll" class="value"></span></p>
+							<p class="data"><span>Score&nbsp;&nbsp;<span id="pollptscre" class="value"></span></p>
+							<p class="data"><span>Type&nbsp;&nbsp;<span id="pollpttype" class="value"></span></p>
+							<p class="data"><span>Created&nbsp;&nbsp;<span id="pollpttime" class="value"></span></p>
+							
+						</div>
+					</div>
+					</div>
+					
+					<div class="contright">
+						<div id="Ask" class="items cont">
+							<div id="askAuthor" class="itemheading">
+								<Label>Author:&nbsp;&nbsp;<span id="askauth" class="value"></span></Label>
+							</div>
+							<div id="AskData" class="itembody">
+								<p class="data" id="askTitle"></p>
+								<p class="data" id="askTxt"></p>
+								<p class="data"><span>Comments&nbsp;&nbsp;<span id="askcmts" class="value"></span></p>
+								<p class="data"><span>score&nbsp;&nbsp;<span id="askscre" class="value"></span></p>
+								<p class="data"><span>Type&nbsp;&nbsp;<span id="asktype" class="value"></span></p>
+								<p class="data"><span>Created&nbsp;&nbsp;<span id="asktime" class="value"></span></p>
+								
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+				
+					
+					<div id="Job" class="items r2 cont">
+						<div id="jobAuthor" class="itemheading">
+							<Label>Author:&nbsp;&nbsp;<span id="jobauth" class="value"></span></Label>
+						</div>
+						<div id="JobData" class="itembody">
+							<p class="data" id="jobTitle"></p>
+							<p class="data" id="jobTxt"></p>
+							
+							<p class="data"><span>score&nbsp;&nbsp;<span id="jobscre" class="value"></span></p>
+							<p class="data"><span>Type&nbsp;&nbsp;<span id="jobtype" class="value"></span></p>
+							<p class="data"><span>Created&nbsp;&nbsp;<span id="jobtime" class="value"></span></p>
+							
+						</div>
+					</div>
+					<input type="hidden" id="StoryData">
+					<input type="hidden" id="AskData">
+					<input type="hidden" id="JobData">
+					<input type="hidden" id="PollData">
+					<input type="hidden" id="PollptData">
+					<input type="hidden" id="CommentData">
+					
+					<div id="loading" class="loading" >
+				</div>
+			</div>
+	<script src="HN.js"></script>
+	</body>
+<html>
